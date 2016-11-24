@@ -1,1 +1,38 @@
+.top-navigation {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    float: right;
+}
 
+.content {
+    height: 70px;
+    width: 400px;
+    padding-left: 50px;
+    display: block;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 60px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.links {
+    float: right;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 10px;
+    font-size: 0.95rem;
+}
+
+li {
+    border-right: 2px solid black;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 0.3rem;
+    padding-right: 0.3rem;
+}
